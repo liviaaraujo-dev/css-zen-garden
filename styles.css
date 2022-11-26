@@ -1,0 +1,671 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Rubik+Glitch&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+/* --------  Barra de Rolagem   -------- */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2f2525;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #cf0f0f;
+  border-radius: 20px;
+  height: 150px;
+  border: 3px solid #cf0f0f;
+}
+
+/* ------------------------- -------- */
+
+h1,
+h2 {
+  color: #cf0f0f;
+  font-family: "Cinzel", serif;
+}
+
+h3 {
+  font-family: "Rubik Glitch", cursive;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #cf0f0f;
+  font-weight: normal;
+}
+
+header {
+  background-color: #000000;
+  min-height: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+}
+
+a {
+  background-color: transparent;
+  padding: 5px 10px;
+  color: #cf0f0f;
+}
+
+a:hover {
+  background-color: #cf0f0f;
+  padding: 5px 10px;
+  color: #fff;
+  transition: background 1s;
+}
+
+header::before {
+  background-image: url("https://github.com/liviaaraujo69/imagens/blob/main/gif1.gif?raw=true");
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 90%;
+  filter: saturate(1);
+  opacity: 0.4;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 80px;
+  margin-top: 8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* -------- Sumary   -------- */
+.summary {
+  position: absolute;
+  top: 20rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary p {
+  font-size: 20px;
+  margin-left: 6rem;
+  width: 55%;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.summary a {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: #cf0f0f;
+  border: 3px solid #cf0f0f;
+}
+
+.summary a:hover {
+  background-color: #cf0f0f;
+  padding: 5px 10px;
+  color: #fff;
+  border: 3px solid #cf0f0f;
+  transition: background 1s;
+}
+
+/* -------- Preamble   -------- */
+.preamble {
+  background-image: url("https://occ-0-64-2774.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS6v2gvwesuRN6c28ZykPq_fpmnQCJwELBU-kAmEcuC9HhWX-DfuDbtA-bfo-IrfgNtxl0qwJJlhI6DENsGFXknKkjhxPGTV-qhp.jpg?r=608");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 45rem;
+  height: 100vh;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.preamble h3 {
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+.preamble p {
+  width: 50%;
+  line-height: 1.8rem;
+}
+
+/* -------- Explanation   -------- */
+.explanation {
+  width: 50%;
+  padding-left: 40rem;
+  background-image: url("https://github.com/liviaaraujo69/imagens/blob/main/gif2.gif?raw=true");
+  background-repeat: no-repeat;
+  background-size: 20rem;
+  background-position: 10rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.explanation p {
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+/* -------- Participation   -------- */
+.participation {
+  background-image: url("https://github.com/liviaaraujo69/imagens/blob/main/galeria.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 25rem 25rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.participation h3 {
+  margin-bottom: 2rem;
+}
+
+.participation p {
+  width: 70%;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* -------- Benefits   -------- */
+.benefits {
+  background-image: url("https://github.com/liviaaraujo69/imagens/blob/main/gif3.gif?raw=true");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 50%;
+  background-position: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.benefits h3 {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.benefits p {
+  width: 40%;
+  margin-left: 4rem;
+  line-height: 1.8rem;
+}
+
+/* -------- Requirements   -------- */
+.requirements {
+  background-image: url("https://github.com/liviaaraujo69/imagens/blob/main/bg.png?raw=true");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.requirements h3 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.requirements p {
+  width: 80%;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* -------- Footer   -------- */
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  color: #cf0f0f;
+  border: 3px solid #cf0f0f;
+  font-size: 20px;
+  margin-left: 3rem;
+}
+
+footer a:hover {
+  background-color: #cf0f0f;
+  padding: 15px 25px;
+  color: #000;
+  border: 3px solid #cf0f0f;
+  transition: background 1s;
+}
+
+/* --------  Design Selection   -------- */
+.design-selection {
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.design-selection h3 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.design-selection nav ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.design-selection nav ul li {
+  color: white;
+  border: 1px solid white;
+  list-style: none;
+  display: flex;
+  background-image: linear-gradient(to right, red, black);
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+  height: 3rem;
+}
+
+.design-selection nav ul li a {
+  color: #000;
+}
+
+.design-selection nav ul li a:hover {
+  color: #fff;
+}
+
+.design-selection .designer-name {
+  color: #fff;
+  text-decoration: none;
+}
+
+.design-selection .designer-name:hover {
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+}
+
+/* -------- Archives   -------- */
+.design-archives {
+  position: absolute;
+  margin-left: 15rem;
+}
+
+.design-archives h3 {
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+.design-archives ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.design-archives ul li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* --------  Resources  -------- */
+.zen-resources {
+  height: 60vh;
+  background-image: url("https://github.com/liviaaraujo69/imagens/blob/main/gif4.gif?raw=trueim");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 35rem 18rem;
+  padding-left: 54rem;
+  padding-bottom: 5rem;
+}
+
+.zen-resources h3 {
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+.zen-resources ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+.zen-resources ul li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+@media (max-width: 1200px) {
+
+  /* -------- Sumary   -------- */
+  .summary p {
+    width: 80%;
+    margin: 0;
+  }
+
+  /* -------- Preamble   -------- */
+  .preamble {
+    margin-left: 4rem;
+    background-position: 32rem 15rem;
+  }
+
+  /* -------- Explanation   -------- */
+  .explanation {
+    background-position: 4rem;
+    padding-left: 28rem;
+  }
+
+  /* -------- Participation   -------- */
+  .participation {
+    background-position: 14rem 34rem;
+    background-size: 60%;
+    padding-bottom: 4rem;
+    background-position: 14rem 32rem;
+  }
+
+  /* -------- Benefits   -------- */
+  .benefits {
+    background-position: 36rem;
+    background-size: 40%;
+  }
+
+  /* -------- Footer   -------- */
+  footer {
+    margin-top: 8rem;
+  }
+
+  .design-archives {
+    margin-left: 6rem;
+  }
+
+  .zen-resources {
+    padding-left: 35rem;
+    background-position: 23rem 20rem;
+    padding-bottom: 8rem;
+  }
+}
+
+@media (max-width: 850px) {
+  header h1 {
+    font-size: 65px;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  /* -------- Sumary   -------- */
+  .summary p {
+    width: 80%;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  /* -------- Preamble   -------- */
+  .preamble {
+    margin-left: 2rem;
+    height: 30rem;
+    padding-bottom: 15rem;
+    background-position: 0rem 30rem;
+    background-size: 60%;
+  }
+
+  .preamble p {
+    width: 90%;
+  }
+
+  /* -------- Explanation   -------- */
+  .explanation {
+    background: none;
+    padding-left: 2rem;
+    width: 80%;
+  }
+
+  .explanation h3 {
+    margin-bottom: 2rem;
+  }
+
+  /* -------- Participation   -------- */
+  .participation {
+    background-position: 0 30rem;
+    background-size: 70%;
+    align-items: flex-start;
+    margin-left: 2rem;
+  }
+
+  .participation p {
+    width: 90%;
+  }
+
+  /* -------- Benefits   -------- */
+  .benefits {
+    background-position: 2rem 20rem;
+    background-size: 60%;
+    height: 16rem;
+    padding-bottom: 28rem;
+  }
+
+  .benefits p {
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  .benefits h3 {
+    margin-left: 2rem;
+  }
+
+  .requirements {
+    align-items: flex-start;
+    padding-left: 2rem;
+    background-size: cover;
+    background-position: 0rem 4rem;
+    padding-bottom: 14rem;
+  }
+
+  .requirements p {
+    width: 90%;
+  }
+
+  /* -------- Footer   -------- */
+  footer {
+    display: none;
+  }
+
+  .design-selection {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    justify-content: flex-start;
+  }
+
+  .design-selection nav ul li {
+    width: 16rem;
+    margin-right: 3rem;
+  }
+
+  .design-archives {
+    margin-left: 2rem;
+  }
+
+  .zen-resources {
+    padding-left: 24rem;
+    background-position: 3rem 22rem;
+  }
+}
+
+@media (max-width: 620px) {
+  header h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  /* -------- Preamble   -------- */
+  .preamble {
+    margin-top: 10rem;
+    background-position: 0rem 32rem;
+  }
+
+  .preamble h3 {
+    font-size: 2.2rem;
+  }
+
+  .preamble p {
+    width: 80%;
+  }
+
+  .participation {
+    background-position: 0 40rem;
+    padding-bottom: 9rem;
+    width: 90%;
+  }
+
+  .requirements {
+    padding-bottom: 28rem;
+  }
+
+  .design-selection {
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+
+  .design-selection h3 {
+    font-size: 2.2rem;
+  }
+
+  .design-selection nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .zen-resources {
+    padding: 16rem 0 5rem 2rem;
+    background-position: 3rem 37rem;
+    background-size: 35%;
+  }
+
+
+}
+
+@media (max-width: 450px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  header h1 {
+    margin-top: 4rem;
+  }
+
+  /* -------- Sumary   -------- */
+  .summary {
+    top: 17rem;
+  }
+
+  .summary p {
+    width: 80%;
+  }
+
+  /* -------- Preamble   -------- */
+  .preamble {
+    margin-top: 10rem;
+    background-size: 80%;
+    background-position: 0 38rem;
+    padding-bottom: 20rem;
+  }
+
+  .preamble h3 {
+    font-size: 2rem;
+  }
+
+  .preamble p {
+    width: 80%;
+  }
+
+  /* -------- Participation   -------- */
+  .participation {
+    background-position: 0rem 52rem;
+    padding-bottom: 20rem;
+    background-size: 90%;
+  }
+
+  /* -------- Explanation   -------- */
+  .explanation {
+    margin-top: 4rem;
+  }
+
+  .benefits {
+    background-position: 2rem 22rem;
+    background-size: 70%;
+    height: 16rem;
+    padding-bottom: 24rem;
+  }
+
+  .design-selection {
+    margin-top: 25rem;
+    justify-content: left;
+    text-align: left;
+  }
+
+  .design-selection h3 {
+    text-align: left;
+  }
+
+  .design-selection nav ul {
+    margin-right: 3rem;
+  }
+
+  .zen-resources {
+    background-position: 2rem 36rem;
+    background-size: 50%;
+  }
+}
+
+@media (max-width: 385px) {
+  .preamble {
+    background-position: 0rem 40rem;
+    padding-bottom: 22rem;
+  }
+
+  .participation {
+    background-position: 0rem 60rem;
+    padding-bottom: 28rem;
+  }
+
+  .design-selection {
+    margin-top: 40rem;
+
+  }
+}

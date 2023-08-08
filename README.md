@@ -5,7 +5,7 @@ Então decidi a abordar como temática a série Stranger Things.<br><br>
 
 
 ## Link Github Pages
-<https://liviaaraujodev.github.io/css-zen-garden/>
+<https://liviaaraujo-dev.github.io/css-zen-garden/>
 
 <br>
 
